@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style of the title in news_list_item.xml -->
+    <style name="titleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- Section Styling -->
+    <style name="sectionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/standard_font_size</item>
+        <item name="android:layout_marginTop">@dimen/sub_item_margin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/tag_color</item>
+        <item name="android:padding">@dimen/tag_padding</item>
+    </style>
+    <!-- Date Styling -->
+    <style name="dateStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/date_color</item>
+        <item name="android:layout_marginTop">@dimen/sub_item_margin</item>
+        <item name="android:textSize">@dimen/standard_font_size</item>
+    </style>
+    <!-- Empty List view style -->
+    <style name="emptyListViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+</resources>

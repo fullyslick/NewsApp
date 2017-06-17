@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="tag_padding">4dp</dimen>
+    <dimen name="sub_item_margin">4dp</dimen>
+    <dimen name="standard_font_size">14sp</dimen>
+</resources>
